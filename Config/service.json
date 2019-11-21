@@ -1,0 +1,11 @@
+{
+    "starterkit": {
+        "class": "SoosyzeExtension\\BlockExtended\\Services\\HookBlock",
+        "arguments": [
+            "@template"
+        ],
+        "hooks": {
+            "block.create.form.data": "blockCreate"
+        }
+    }
+}

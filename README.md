@@ -1,2 +1,3 @@
-# block_extended
-Extend the choice of blocks.
+# BlockExtended
+
+Ce module permet d'étendre le choix des blocs à Dailymotion, Google Map, Twitch, Vimeo et Youtube.
