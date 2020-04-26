@@ -4,11 +4,8 @@ namespace SoosyzeExtension\BlockExtended\Services;
 
 class HookBlock
 {
-    private $template;
-
-    public function __construct($template)
+    public function __construct()
     {
-        $this->template  = $template;
         $this->pathViews = dirname(__DIR__) . '/Views/';
     }
 
