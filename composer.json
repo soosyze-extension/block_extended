@@ -11,7 +11,7 @@
     "extra": {
         "soosyze": {
             "title": "BlockExended",
-            "package": "Content",
+            "package": "Block",
             "controller": "SoosyzeExtension\\BlockExtended\\Controller\\BlockExtended",
             "icon": {
                 "name": "fas fa-columns",

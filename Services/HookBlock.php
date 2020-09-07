@@ -13,27 +13,27 @@ class HookBlock
     {
         $blocks[ 'google_map' ]  = [
             'title' => t('Google Map'),
-            'tpl'   => 'google_map.php',
+            'tpl'   => 'components/block/blockextended-google_map.php',
             'path'  => $this->pathViews
         ];
         $blocks[ 'youtube' ]     = [
             'title' => t('Youtube'),
-            'tpl'   => 'youtube.php',
+            'tpl'   => 'components/block/blockextended-youtube.php',
             'path'  => $this->pathViews
         ];
         $blocks[ 'dailymotion' ] = [
             'title' => t('Dailymotion'),
-            'tpl'   => 'dailymotion.php',
+            'tpl'   => 'components/block/blockextended-dailymotion.php',
             'path'  => $this->pathViews
         ];
         $blocks[ 'twitch' ]      = [
             'title' => t('Twitch'),
-            'tpl'   => 'twitch.php',
+            'tpl'   => 'components/block/blockextended-twitch.php',
             'path'  => $this->pathViews
         ];
         $blocks[ 'vimeo' ]       = [
             'title' => t('Vimeo'),
-            'tpl'   => 'vimeo.php',
+            'tpl'   => 'components/block/blockextended-vimeo.php',
             'path'  => $this->pathViews
         ];
     }
