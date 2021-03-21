@@ -1,8 +1,8 @@
 {
-    "name": "soosyze-extension/blockextended",
+    "name": "soosyze/blockextended",
     "type": "soosyze-module",
     "description": "Extend the choice of blocks.",
-    "version": "1.0",
+    "version": "1.0.0",
     "autoload": {
         "psr-4": {
             "SoosyzeExtension\\BlockExtended\\": "/"
@@ -13,6 +13,9 @@
             "title": "BlockExended",
             "package": "Block",
             "controller": "SoosyzeExtension\\BlockExtended\\Controller\\BlockExtended",
+            "require": {
+                "Block": "1.0.*"
+            },
             "icon": {
                 "name": "fas fa-columns",
                 "background-color": "#5cb85c",

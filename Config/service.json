@@ -1,8 +1,0 @@
-{
-    "blockextended.hook.block": {
-        "class": "SoosyzeExtension\\BlockExtended\\Services\\HookBlock",
-        "hooks": {
-            "block.create.form.data": "blockCreate"
-        }
-    }
-}

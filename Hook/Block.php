@@ -1,15 +1,15 @@
 <?php
 
-namespace SoosyzeExtension\BlockExtended\Services;
+namespace SoosyzeExtension\BlockExtended\Hook;
 
-class HookBlock
+class Block implements \SoosyzeCore\Block\BlockInterface
 {
     public function __construct()
     {
         $this->pathViews = dirname(__DIR__) . '/Views/';
     }
 
-    public function blockCreate(array &$blocks)
+    public function hookBlockCreateFormData(array &$blocks)
     {
         $blocks[ 'google_map' ]  = [
             'title' => t('Google Map'),
